@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.s-link {
+  @apply hover:bg-white hover:text-black p-3;
+}
+
+.foot-1 {
+  position: relative;
+
+}
+
+.foot-2 {
+  position: absolute;
+  right: 50%;
+  bottom: 20%;
+
+}
+
+.main-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro-1 {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  border-radius: 200px;
+  border: 6px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+.intro-2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.intro-3 {
+  color: white;
+
+}
